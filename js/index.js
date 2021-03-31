@@ -527,8 +527,8 @@
     turmaB_avg_grade = cursoB.reduce((total, numero) => total + numero, 0) / cursoB.length
 
     profBarGrapth( { labels: nomeTrimestres , data: barGrapthData, title: 'Desempenho anual médio das turmas 1º trimestre' } )
-    pizzaGrapth( { labels: nomeTurmas, data: [ turmaA_avg_grade, turmaB_avg_grade], title: 'Rendimentto anual das turmas' } )
-    profLineGrapth( { labels: nomeTurmas, data: lineGrapthData, title: 'Média anual das turmas' } )
+    pizzaGrapth( { labels: nomeTurmas, data: [ turmaA_avg_grade, turmaB_avg_grade], title: 'Média anual das turmas' } )
+    profLineGrapth( { labels: nomeTurmas, data: lineGrapthData, title: 'Rendimento anual das turmas' } )
 
 
   } 
